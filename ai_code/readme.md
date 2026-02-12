@@ -96,3 +96,8 @@ gcc -O3 matrix_mult.c -o matrix_mult
 ```bash
 ./matrix_mult
 ```
+## 📊 Results 
+
+📊 [result  1]()
+📊 [result 2]()
+📊 [result 3]()
