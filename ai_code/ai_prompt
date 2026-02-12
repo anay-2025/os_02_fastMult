@@ -1,1 +1,8 @@
+Write a C program to compare sequential and parallel matrix multiplication.
 
+Use fork() to create 8 child processes and divide the work row-wise. 
+Use mmap() to create a shared memory result matrix for parallel execution. 
+Allocate matrices using malloc() and store them as 1D arrays. 
+Transpose matrix B before multiplication to improve cache performance. 
+Measure execution time of both sequential and parallel versions using clock(). 
+Take matrix size as user input and print both execution times.
